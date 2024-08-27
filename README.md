@@ -20,5 +20,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 Lightning fast image generation. 
 
+I build this using
+
 https://fastsdxl.ai/
 
