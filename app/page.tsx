@@ -56,7 +56,7 @@ export default function Home() {
   }
 
   return (
-    <main className="flex justify-center pt-5">
+    <main className="flex justify-center items-center h-screen">
       <div className="w-[800px] flex flex-col items-center justify-center">
         <input
           placeholder="Type something"
@@ -68,6 +68,7 @@ export default function Home() {
           <p className="mt-3">{(inferenceTime * 1000).toFixed(0)}ms</p>
         )}
         {image && <img src={image} className="mt-3 w-[800px] h-[800px]" />}
+        <p className="mt-5 text-black/60">by Finn :)</p>
       </div>
     </main>
   );
