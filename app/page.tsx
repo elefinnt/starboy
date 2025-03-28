@@ -13,7 +13,7 @@ function randomSeed() {
 
 const INPUT_DEFAULTS = {
   _force_msgpack: new Uint8Array([]),
-  enable_safety_checker: true,
+  enable_safety_checker: false,
   image_size: "square_hd",
   sync_mode: true,
   num_images: 1,
